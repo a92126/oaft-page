@@ -1,0 +1,30 @@
+{
+  "pickup": "打开ROM文件",
+  "notice": "如果某个游戏开启了金手指，但没有效果，可以试试此工具",
+  "log": {
+    "round": "第`round`轮模拟运行游戏",
+    "nofile": "没有选中任何文件",
+    "notrom": "选中的不是后缀为.gba的ROM文件",
+    "openfile": "开始读入ROM文件：`name`",
+    "readed": "读入ROM文件完成，文件大小`byteLength`字节",
+    "serial": "ROM文件的序列码为`serial`",
+    "loaddb": "下载ROM信息总表...",
+    "readroms": "读取ROM信息总表",
+    "noinfo": "总表未发现当前ROM的信息",
+    "showinfo": "猜测当前游戏为`name`",
+    "infoerr": "查找ROM信息总表出错：`message`",
+    "loadvm": "下载nanoboy advance模拟器代码",
+    "startvm": "启动nanoboy advance模拟器",
+    "rungame": "在nanoboy advance中模拟运行游戏",
+    "showirq": "发现中断处理地址是`address`H",
+    "findsti": "从中断处理过程检查开关中断的指令",
+    "nosti": "找不到开关中断的指令",
+    "showsti": "在地址`address`H发现开关中断的指令",
+    "findseq": "在ROM文件中匹配对应的指令序列",
+    "noseq": "匹配指令序列失败",
+    "showseq": "在ROM文件中匹配到指令序列，对应agb_mode地址为`address`H",
+    "result": "<span>点击链接<a download=\"`result`\" href=\"`link`\">`result`</a>下载hpt文件，拷贝到3ds的内存卡放在`filename`相同目录下",
+    "nbaerr": "使用nanoboy advance模拟器发生错误：`message`",
+    "loadfail": "加载网络资源失败"
+  }
+}

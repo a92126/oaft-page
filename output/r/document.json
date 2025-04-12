@@ -1,0 +1,62 @@
+{
+  "document": "存档类型",
+  "forsize": "游戏尺寸",
+  "forload": "载入游戏",
+  "forinput": "输入设置",
+  "state": "点击“载入游戏”按钮，选择GBA游戏rom开始游戏",
+  "forpause": "游戏暂停，点击画面恢复",
+  "forreplay": "使用检测后的存档方案重新开始游戏",
+  "fordownload": "完成检测，点击下载stc文件",
+  "forpadin": "连接上游戏手柄，可以点击输入设置使用手柄",
+  "forpadout": "游戏手柄断开连接，已无法使用手柄控制游戏",
+  "savetype": {
+    "chip": [
+      "未知芯片",
+      "SRAM",
+      "FLASH",
+      "EEPROM"
+    ],
+    "rtc": "RTC",
+    "empty": "未知容量"
+  },
+  "error": {
+    "invalid_rom": "不是有效的GBA游戏",
+    "no_selected_file": "没有选择文件"
+  },
+  "scale": [
+    {
+      "label": "原始尺寸",
+      "value": 1
+    },
+    {
+      "label": "2倍大小",
+      "value": 2
+    },
+    {
+      "label": "3倍大小",
+      "value": 3
+    }
+  ],
+  "inputing": {
+    "vmsource": "GBA键位",
+    "kbsource": "键盘按键",
+    "gpsource": "手柄按键",
+    "keys": [
+      "上",
+      "下",
+      "左",
+      "右",
+      "开始",
+      "选择",
+      "A键",
+      "B键",
+      "L键",
+      "R键"
+    ],
+    "haspad": "选择手柄",
+    "yes": "更新设置",
+    "no": "取消设置",
+    "fordev": "切换输入设备",
+    "kbdev": "键盘"
+  }
+}

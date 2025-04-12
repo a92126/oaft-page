@@ -1,0 +1,40 @@
+{
+  "cn": {
+    "title": "导出border.bgr",
+    "open": "打开文件",
+    "save": "导出bgr文件",
+    "usage": "步骤：打开图片文件->拖动或用方向键调整裁剪区域->导出bgr文件",
+    "resolution": "错误：图片分辨率不低于400x240",
+    "detail": "细节：",
+    "color": "线框颜色：",
+    "corner_menu": [
+      {
+        "label": "展示",
+        "value": true
+      },
+      {
+        "label": "隐藏",
+        "value": false
+      }
+    ]
+  },
+  "en": {
+    "title": "Create Border BGR",
+    "open": "Open File",
+    "save": "Export BGR File",
+    "usage": "Steps: open image file -> drag or use arrow keys to adjust the cropping area -> export bgr file",
+    "resolution": "Error: Image resolution no less than 400x240",
+    "detail": "GBA Edge Corner: ",
+    "color": "Line Color: ",
+    "corner_menu": [
+      {
+        "label": "ON",
+        "value": true
+      },
+      {
+        "label": "OFF",
+        "value": false
+      }
+    ]
+  }
+}

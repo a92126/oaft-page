@@ -1,0 +1,44 @@
+{
+  "document": "调整Gamma",
+  "intro": {
+    "close": "知道了",
+    "how": {
+      "title": "使用说明",
+      "desc": "<ol>\n<li>加载用作原图的截图</li>\n<li>调整参数，查看预览图</li>\n<li>将满意的参数自行修改到3DS储存卡里面的<code>3ds/open_agb_firm/config.ini</code>文件中</li>\n</ol>\n"
+    },
+    "why": {
+      "title": "运行原理",
+      "desc": "<p>请注意：由于不同的液晶屏对同一个颜色显示的效果也是不尽相同的，此页面的预览效果只能作为参考。</p>\n<ol>\n<li>GBA液晶屏无背光，只能依靠外部光源来显示，所以和3DS的背光液晶不同，不能直接使用</li>\n<li>为了适配GBA的技能，GBA游戏的输出色彩和通常液晶屏的有所区别。通常再模拟器中选择原色输出能看到，相比普通液晶屏会偏暗</li>\n<li>3DS的GBA模式，提供了一个色彩映射表，可以将颜色的RGB分量的256级色值分别映射为另一组256级的色值。也就是o(r, g, b) = rmap[i(r)], gmap([i(g)], bmap[i(g)]</li>\n<li>虽然理论上三个颜色分量可以分别设置映射，不过open_agb_firm的原作者使用的是Gamma校正算法，每个分量都是同一组映射</li>\n</ol>\n"
+    }
+  },
+  "view": {
+    "origin": {
+      "title": "GBA原色截图",
+      "button": "载入本机截图",
+      "snapshot": "/r/screenshot.png"
+    },
+    "preview": {
+      "title": "open_agb_firm显示效果"
+    }
+  },
+  "form": {
+    "title": "调整参数",
+    "curvename": "Gamma校正曲线",
+    "lcdGamma": {
+      "init": 2.2,
+      "step": 0.01
+    },
+    "gbaGamma": {
+      "init": 1.54,
+      "step": 0.01
+    },
+    "contrast": {
+      "init": 1,
+      "step": 0.01
+    },
+    "brightness": {
+      "init": 0,
+      "step": 0.01
+    }
+  }
+}
