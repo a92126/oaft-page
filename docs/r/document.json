@@ -20,7 +20,7 @@
     "empty": "未知容量"
   },
   "error": {
-    "invalid_rom": "不是有效的GBA游戏",
+    "invalid_rom": "GBA游戏格式有错",
     "no_selected_file": "没有选择文件"
   },
   "scale": [
