@@ -1,0 +1,232 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    --good-color: #1cab1f;
+    --healthy-color: #16881a;
+    --warning-color: #afad07;
+    --danger-color: #ff722b;
+    --error-color: #ff2419;
+    --unabled-color: #ccc;
+  
+    --href-color: #676fe2;
+    --href-hover-color: #424eea;
+    --button-color: #676fe2;
+    --button-hover-color: #424eea;
+    --button-text-color: #fff;
+  }
+  
+  #app {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(48, 48, 48, 0.8);
+    background-color: #f0f0f0;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    font-weight: 500;
+    color: var(--href-color);
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: var(--href-hover-color);
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--button-text-color);
+    background-color: var(--button-color);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:not(:empty){
+      width: 100vw;
+      height: 100vh;
+      background-color: transparent;
+      backdrop-filter: blur(3px);
+    }
+  }
+  
+  .home {
+    input[type="search"] {
+      width: 30vw;
+      height: 2em;
+      outline: none;
+      font-family: 'Times New Roman', Times, serif;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      border-radius: 0.5rem;
+      padding: 0 16px;
+      text-align: center;
+  
+      &::placeholder {
+        color: #ccc;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .status {
+    min-width: 1000px;
+    width: 100ch;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+    & .service {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      & .name {
+        flex: 0 0 16em;
+        text-align: right;
+        padding-right: 10px;
+      }
+  
+      & .healthy {
+        flex: 1 1 auto;
+        height: 1.2em;
+        border-radius: 6px;
+        background-color: var(--healthy-color);
+      }
+  
+      & .link {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .detail {
+    width: 60vw;
+    height: 52vh;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: #e4e4e4ef;
+    border-radius: 12px;
+    padding: 18px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #777;
+    box-shadow: #555 5px 5px 20px;
+  
+    & .modal-title {
+      width: 100%;
+      display: flex;
+      flex: 0 0 auto;
+      align-items: center;
+      justify-content: space-between;
+  
+      & span:has(svg) {
+        cursor: pointer;
+      }
+    }
+  
+    & .detail-content {
+      width: 100%;
+      flex: 0 1 auto;
+      display: flex;
+      gap: 1em;
+      align-items: flex-start;
+      justify-content: space-between;
+  
+      & .main-points{
+        max-width: 300px;
+        height: 100%;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: #ddd;
+  
+        &>div {
+          width: 100%;
+          border: 1.5px solid #9a999a;
+          padding: 12px 20px;
+          &>div:first-child {
+            font-weight: bold;
+          }
+        }
+      }
+  
+      & .main-chart{
+        flex: 1 1 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: flex-start;
+        justify-content: space-between;
+  
+        & .chart{
+          width: 100%;
+          flex: 1 1 auto;
+          display: flex;
+        }
+  
+        & .open {
+          width: 100%;
+          display: flex;
+          flex: 0 0 auto;
+          justify-content: center;
+        }
+      }
+    }
+  }
