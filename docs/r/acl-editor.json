@@ -3,7 +3,7 @@
     "title": "选择待编辑的acl文件",
     "local": "打开本机的acl文件",
     "remote": "载入当前版本的gba.acl",
-    "stdfile": "https://oafcdn.anod.cc/gba.acl",
+    "stdfile": "/r/gba.acl",
     "invalid": "文件格式不正确"
   },
   "editor": {
