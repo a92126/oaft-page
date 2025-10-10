@@ -6,10 +6,10 @@
     "intro": "<p><a target=\"_blank\" href=\"https://github.com/profi200/open_agb_firm/\">open_agb_firm</a>是一个专用于任天堂3DS的软件，而oaf-boost是这个软件的汉化魔改版。通过这个软件，你可以调用3DS的arm7核心来全速畅玩GBA游戏。</p>\n",
     "install": "点击下载",
     "source": "查看源码",
-    "srcurl": "https://git.anod.cc:8443/anod/oaf-boost/",
+    "srcurl": "https://git.anod.cc:8443/anod/oaf-boost",
     "modal": "oaf-boost安装步骤",
-    "reslink": "https://url13.ctfile.com/f/46376013-1062705302-8965d9?p=oldman",
-    "reslinkt": "下载地址 (访问密码：oldman)"
+    "reslink": "https://davcdn.anod.cc/oaf_boost-0426.7z",
+    "reslinkt": "点击下载"
   },
   "shelf": {
     "title": "辅助工具",
