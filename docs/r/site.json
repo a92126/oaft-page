@@ -98,6 +98,10 @@
       {
         "q": "怎么反馈问题？",
         "a": "<ul>\n<li>点击网站右下角的信件图标，可以给我发送邮件，我这边收到邮件后将会确认。如果需要联系，可以留下联系方式。</li>\n</ul>\n"
+      },
+      {
+        "q": "我想修改代码，我想提交PR！",
+        "a": "<ul>\n<li>修改代码需要掌握3DS的硬件知识和GBA的硬件知识。这些知识原本可以在GBATEK网站获取，但是可恶的德国人禁止咱们访问了，我偷偷抓了一份<a target=\"_blank\" href=\"/man.html\">GBATEK文档</a>，大家尽情享用</li>\n<li>要提交PR，可以通过CNB平台进行提交(原谅我不怎么维护这个仓库了，中年人没时间玩游戏)</li>\n</ul>\n<ol>\n<li>登录<a target=\"_blank\" href=\"https://cnb.cool\">CNB代码托管平台</a></li>\n<li>fork<a target=\"_blank\" href=\"https://cnb.cool/a92126/open_agb_firm\">代码仓库</a>到你个人的仓库中</li>\n<li>本地修改后提交代码到步骤2中fork的仓库中</li>\n<li>通过CNB平台创建合并请求，使用“跨仓比较”，然后选择我的仓库后填写请求表单，这样我会收到提醒去进行review和后续操作</li>\n</ol>\n"
       }
     ]
   },
